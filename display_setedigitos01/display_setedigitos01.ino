@@ -1,4 +1,4 @@
-#define tmp 4000
+#define tmp 1000
 int cont=0;
 int disp_pinos[8]={2,3,4,5,6,7,8,9};
 int digitos[10][8]={

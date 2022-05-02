@@ -8,7 +8,6 @@ void setup() {
   pinMode(ledR, OUTPUT);
   pinMode(ledG, OUTPUT);
   pinMode(ledB, OUTPUT);
-
 }
 
 void loop() {
@@ -25,10 +24,5 @@ void loop() {
   digitalWrite(ledG,LOW); 
   digitalWrite(ledB,HIGH);
   delay(3000);
- 
-  
-  
-
-
 
 }
