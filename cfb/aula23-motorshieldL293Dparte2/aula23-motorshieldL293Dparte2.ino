@@ -12,8 +12,8 @@ void setup() {
 
 void loop() {
   
-  motor1.setSpeed(250);
-  motor2.setSpeed(250);
+  motor1.setSpeed(255);
+  motor2.setSpeed(255);
   motor1.run(FORWARD); //sentido horário
   motor2.run(BACKWARD); //sentido anti-horário
   delay(5000);
