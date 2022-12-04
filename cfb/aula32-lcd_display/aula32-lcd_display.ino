@@ -1,5 +1,7 @@
 // C++ code
 //
+// C++ code
+//
 #include <LiquidCrystal.h>
 
 
@@ -14,17 +16,24 @@ void setup(){
 }
 
 void loop(){
-  lcd.setCursor(3,0);
+  lcd.setCursor(0,0);
   lcd.print("Washington");
-  lcd.setCursor(5,1);
+  lcd.setCursor(1,1);
   lcd.print("Arduino");
-  delay(300);
-  lcd.clear();
-  delay(300);
-  lcd.setCursor(3,0);
-  lcd.print("Washington");
-  lcd.setCursor(5,1);
-  lcd.print("Arduino");
-  delay(300);
+  for(int i=0;i<6;i++){
+    lcd.scrollDisplayRight();
+    delay(1000);
+  }
+  for(int i=0;i<6;i++){
+    lcd.scrollDisplayLeft();
+    delay(1000);
+    
+  }
+  
+  delay(1000);
+  lcd.noDisplay();
+  lcd.display();
+  delay(500);
+ 
   
 }

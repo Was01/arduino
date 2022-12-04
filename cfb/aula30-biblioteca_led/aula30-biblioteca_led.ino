@@ -1,14 +1,20 @@
-#include <CFB_led.h>
+#include "CFB_led.h"
 
-#define pino_led 7
+int pinovermelho=7;
+int pinoverde=6;
+int pinoamarelo=5;
 
-CFB_led led(pino_led);
+CFB_led ledvermelho(pinovermelho);
+CFB_led ledverde(pinoverde);
+CFB_led ledamarelo(pinoamarelo);
 
 void setup() {
  
 }
 
 void loop() {
-  led.piscar(500);
+  ledvermelho.piscar(50);
+  ledverde.piscar(50);
+  ledamarelo.piscar(50);
 
 }
