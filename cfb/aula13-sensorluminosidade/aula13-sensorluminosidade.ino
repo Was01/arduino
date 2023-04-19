@@ -16,7 +16,7 @@ void setup() {
 void loop() {
   
  vldr=analogRead(ldr);
- if (vldr<70){
+ if (vldr<150){
     digitalWrite(led,HIGH);
   }else{
     digitalWrite(led,LOW);
