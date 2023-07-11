@@ -7,13 +7,11 @@ int pled=2;
 void setup()
 {
   pinMode(pled,OUTPUT);
+  digitalWrite(pled,LOW);
 }
 
 void loop()
 {
-  digitalWrite(pled,HIGH);
-  delay(8000);
-  digitalWrite(pled,LOW);
-  delay(5000);
-
+  digitalWrite(pled,!digitalRead(pled));
+  delay(500);
 }

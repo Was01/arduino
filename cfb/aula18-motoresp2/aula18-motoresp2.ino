@@ -2,7 +2,7 @@
 //
 
 
-# define motor 2
+# define motor 3
 void setup()
 {
   pinMode(motor, OUTPUT);
