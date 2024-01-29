@@ -20,7 +20,7 @@ void setup() {
 
 void loop() 
 {
- Blink_ms(100,200,led1,led2);
+ Blink_ms(500,1000,led1,led2);
 }
 
 void Blink_ms(unsigned ms1,unsigned ms2,const int pino1,const int pino2)

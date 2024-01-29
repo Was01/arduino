@@ -30,7 +30,7 @@ void setup() {
 
 void loop() {
   tempo_adj=analogRead(pot);
-  tempo_adj=map(tempo_adj,0,1023,300,600);
+  tempo_adj=map(tempo_adj,0,1023,10,100);
   atual_ms=millis();
 
   if(!digitalRead(btn)) btn_flag=1;
@@ -43,7 +43,13 @@ void loop() {
     if(btn_flag) tempo_seg++;
 
     if(tempo_seg==tempo_adj)
-      while(1)  digitalWrite(led2,HIGH);
+    {
+      while(1) 
+      {
+        digitalWrite(led2,HIGH);
+        digitalWrite(led1,LOW);
+      }
+    }
 
     digitalWrite(led1,!digitalRead(led1));
 
