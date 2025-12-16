@@ -1,1 +1,1 @@
-## Entrdas digitais: lendo um botão
+## Entradas digitais: lendo um botão
