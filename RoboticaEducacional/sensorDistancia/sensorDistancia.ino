@@ -27,7 +27,7 @@ void loop() {
   Serial.print(distancia);
   Serial.println(" cm");
 
-  // Lógica do Servo
+  
   if (distancia > 0 && distancia < 20) {
     digitalWrite(led,HIGH);
   } 
