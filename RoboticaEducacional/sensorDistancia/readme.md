@@ -1,1 +1,1 @@
-## Sensor ultrassônico: Medidno distâncias
+## Sensor ultrassônico: Medindo distâncias
