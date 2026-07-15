@@ -1,1 +1,1 @@
-# Ao apertar uma botoeira B0 (NA), liga uma lâmpada L1.
+# Ao apertar uma botoeira B0 (NA), ligar uma lâmpada L1.
