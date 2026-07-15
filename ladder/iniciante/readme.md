@@ -1,1 +1,1 @@
-## Conceitos básicos de ladder utilizado o simulador PLC Ladder Simulation para android.
+## Conceitos básicos de linguagem ladder utilizando o simulador PLC Ladder Simulation para android.
